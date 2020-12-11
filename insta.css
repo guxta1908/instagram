@@ -1,0 +1,140 @@
+body {
+    width: 100%;
+    min-height: 100vh;
+  background: rgb(248, 245, 245);
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center ;
+  }
+  .instagranpai {
+
+    align-items: center;
+    justify-content: start;
+    display: flex;
+    width: 60%;
+    height: 100vh;
+ //   border: 1px solid gray;
+  }
+  .phone
+{
+align-items: center;
+justify-content: center;
+display: flex;
+width: 80%;
+
+
+
+
+}
+.phone img {
+   
+    width: 100%;
+    
+    
+}
+.logotipo {
+     width: 12rem;
+     overflow: hidden;
+    
+}
+.fotoperfil  {
+    
+  align-items: center;
+  justify-items: center;
+  overflow: hidden;
+  border-radius: 50%;
+}
+.fotoperfil img {
+    width: 9rem;
+}
+.continue {
+    align-items: center; /* horizontal*/
+    justify-content: space-around; /* vertical */
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    min-height: 34rem;
+    
+    
+    }
+    .grupo {
+
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-direction: column;
+        background: white;
+        border: 1px solid lightgray ;
+            
+        width: 100%; 
+    }
+    .login {
+        background: blue;
+        color: white;
+        padding: 6px;
+        border-radius: 8px;
+    }
+    .grupo:nth-child(1) {
+        min-height: 10rem;
+        max-height: 18rem;
+    }
+.logout {
+margin-top: 2px;
+margin-bottom: 5px;
+padding: 1px;
+
+}
+.linkazul {
+    color: blue;
+}
+.grupo:nth-child(2) {
+    max-height: 6rem;
+}
+.getapp {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 1rem 0;
+}
+.download {
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 1rem;
+    display: flex;
+    width: 100%
+}
+.download img {
+    height: 3;
+    width: 35%;
+}
+@media (max-width: 1024px) {
+    .instagranpai{
+        width: 90%;
+    }
+}
+@media (max-width: 650px) {
+    .instagranpai{
+        width: 90%;
+    }
+    .phone {
+        display: none;
+    }
+    .continue{
+        width: 100%;
+    }
+}
+
+/*.appdownloads {
+    height: 3;
+    width: 8;
+    background-size: cover;
+    }
+    /*.appdownloads:nth-child(1) {
+        background-image: url('apple.jpg');
+    }
+    .appdownloads:nth-child(2){
+        background-image: url('google2.png');
+    }
